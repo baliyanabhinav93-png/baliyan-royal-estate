@@ -166,52 +166,13 @@
     </div>
 
     <!-- Add more plot cards same way -->
-<!-- Plot A-20 ends here -->
-
-<!-- AUTO-GENERATED PLOTS START -->
-<script>
-  const blocks = {
-    A: { start: 21, end: 42 },
-    B: { start: 1, end: 4 },
-    C: { start: 1, end: 4 },
-    D: { start: 1, end: 7 },
-    E: { start: 1, end: 17 },
-    F: { start: 1, end: 24 },
-    G: { start: 1, end: 24 },
-    H: { start: 1, end: 32 },
-    I: { start: 1, end: 9 }
-  };
-
-  for (const block in blocks) {
-    document.write(`<h3>Block ${block}</h3>`);
-    document.write(`<div class="plots-grid">`);
-
-    for (let i = blocks[block].start; i <= blocks[block].end; i++) {
-      const num = i.toString().padStart(2, '0');
-
-      document.write(`
-        <div class="plot-card">
-          <h4>Plot ${block}-${num}</h4>
-          <p><strong>Size:</strong> To be updated</p>
-          <p><strong>Price:</strong> ₹8,500 – ₹10,500</p>
-          <p><strong>Status:</strong> Available</p>
-          <a class="btn" href="plot-${block.toLowerCase()}-${num}.html">
-            View Details
-          </a>
-        </div>
-      `);
-    }
-
-    document.write(`</div>`);
-  }
-</script>
-<!-- AUTO-GENERATED PLOTS END -->
 
   </div>
 </div>
 
 </body>
 </html>
+
 
 
 
