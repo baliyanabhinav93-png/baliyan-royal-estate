@@ -107,6 +107,29 @@ body {
   color: #fff;
 }
 
+/* ABOUT PAGE CENTER FIX */
+.content {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;   /* ⭐ THIS CENTERS EVERYTHING */
+}
+
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
 .secondary-btn:hover {
   background: #333;
 }
@@ -221,3 +244,4 @@ body {
     gap: 15px;
   }
 }
+
