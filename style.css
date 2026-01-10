@@ -37,6 +37,52 @@ body {
   color: #ddd;
 }
 
+/* ===============================
+   HOME PAGE LAYOUT FIX
+================================ */
+
+.content {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* Home headings */
+.content h1,
+.content h2 {
+  text-align: center;
+}
+
+/* Home paragraph text */
+.content p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Buttons center */
+.content .btn {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Center button group */
+.content .btn-container {
+  text-align: center;
+  margin: 25px 0;
+}
+
+/* Light background for home */
+body {
+  background-color: #f5f6f7;
+}
+
+/* Improve check-list spacing */
+.content h3,
+.content h4 {
+  margin-top: 25px;
+}
+
 /* =========================
    NAVBAR
 ========================= */
@@ -196,4 +242,5 @@ body {
     gap: 15px;
   }
 }
+
 
