@@ -116,6 +116,28 @@ body {
   gap: 20px;
 }
 
+/* About Page Center Alignment */
+.about-section,
+.content {
+  max-width: 900px;
+  margin: 40px auto;   /* centers the block */
+  text-align: center;  /* centers text */
+  padding: 20px;
+}
+
+.about-section h1,
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
 .plot-card {
   background: #fff;
   padding: 18px;
@@ -171,3 +193,4 @@ body {
     font-size: 28px;
   }
 }
+
